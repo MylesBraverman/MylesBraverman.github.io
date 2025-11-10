@@ -1,0 +1,119 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #e4e4e4;
+}
+
+.horizontal-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontal-flex-container > div{
+    flex: 1 1 0; 
+    min-width: 400px;
+}
+
+.vertical-flex-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+h1 {
+    color: #536c01;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 50px 0px 70px 0px;
+}
+
+.section-h1{
+    color: #536c01;
+    text-transform: none;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 180%;
+    text-align: center;
+    padding: 70px 0px 40px 0px;
+}
+
+.intro-h2 {
+    color: #ce7b07;
+    padding-top: 10px;
+}
+
+.section-h2 {
+    color: #a04931;
+    padding-left: 30px;
+}
+
+p {
+    color: #665050;
+}
+
+.aboutMe{
+    font-size: larger;
+}
+
+.section-p{
+    font-size: large;
+    padding: 0 30px;
+}
+
+a {
+    color: #b17f7f;
+}
+
+div {
+    margin: 0px;
+    padding: 0px 20px 20px;
+}
+
+.section {
+    background: #faf8f8;
+    border: 2px solid #c0b9b9;
+
+}
+
+ .slideshow-section {
+    display: flex;
+    align-items: center;
+    background: #faf8f8;
+    border: 2px solid #c0b9b9;
+    max-width: 70%;
+    margin: 30px;
+    padding: 30px
+}
+
+.hobby-div {
+    display: inline-block;
+    background: #fff4dfda;
+    margin: 20px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    font-style: italic;
+    border: 2px solid #c0b9b9;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 50vw;
+}
+
+.portrait {
+    display: block;
+    height: auto;
+    width: 100;
+    max-width: 400px;
+    min-width: 300px
+    
+}
+
+.slideshow-image{
+    display: inline-block;
+    margin: auto;
+    width: 70%;
+}

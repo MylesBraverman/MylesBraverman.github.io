@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Myles Portfolio Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1><u>Myles Braverman</u></h1>
+
+    <div class="horizontal-flex-container">
+        <div>
+            <img class="portrait" src="images\me.jpg" alt="Me, sitting in the grass smiling">
+        </div>
+        <div class="vertical-flex-container">
+            <div>
+                <h2 class="intro-h2">About me:</h2>
+                <p class="aboutMe">I am a senior at Colby College in Waterville, Maine. I am a double major in Computer
+                    Science and Studio Art (Photography Concentration). I am passionate about being kind to people and
+                    learning new things.
+                </p>
+            </div>
+            <div>
+                <h2 class="intro-h2">My hobbies:</h2>
+                <div class="hobby-div">
+                    <p> Playing the drums</p>
+                </div>
+                <div class="hobby-div">
+                    <p> Skiing</p>
+                </div>
+                <div class="hobby-div">
+                    <p> Enjoying nature</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="section-h1">Computer Science:</h1>
+        <div>
+            <h2 class="section-h2">My current studies:</h2>
+            <p class="section-p">Right now, I am taking two computer science courses - CS321 and CS343</p>
+            <p class="section-p">CS231 is all about software engineering. I am learning the actual coding
+                side of building software, including html, css, javascript, flask, and git. And, equally as important, I
+                am also learning about the software development process itself, including the product life cycle,
+                version control, and different project management workflows. Over the course of the semester, I am
+                working with a team to build a real world software solution from the ground up, giving me hands on
+                experience and practice with all of these concepts. </p>
+            <p class="section-p">CS343 is about neural networks. I am learning the theory, algorithms, and components of
+                foundational neural network models. We dive into the details of net inputs, activation functions,
+                weights, biases, loss gradients, etc., and how the implementations vary between different model types.
+                We hand code each of these models, step by step, tuning hyperparameters and ultimately, training our
+                models with real world datasets.</p>
+        </div>
+        <div>
+            <h2 class="section-h2">Internships:</h2>
+            <p class="section-p">Hopedale IT Department - Over the Summer of 2024, I worked as an IT intern at Hopedale
+                Public Schools in Massachussetts. It is a very small school district, so the IT department handles a
+                wide variety of things across the schools, and this gave me the chance to gain experience in a lot of
+                different areas. I helped with device auditing, inspections, repairing computer internals, device
+                imaging, servers and network switches, dropping new ethernet lines, security systems, etc.</p>
+            <p class="section-p">NETSCOUT - This past Summer, I worked as a research and development intern at the
+                NETSCOUT headquarters in Westford, MA. As a cybersecurity company, privacy is kind of paramount to their
+                business, so I genuinely don't know what I am allowed to share about my work there. What I can say
+                though, is I learned a lot about network monitoring and the devices used to capture packet data. </p>
+        </div>
+    </div>
+    <div>
+        <h1 class="section-h1">Photography:</h1>
+        <div>
+            <h2 class="section-h2">My older work:</h2>
+            <p class="section-p">I have been shooting professionally for over a decade now, and I was passionate about
+                photography long before that. Here are a few random examples of the work I was making in middle school
+                and early high school</p>
+            <div class="slideshow-section">
+                <button id="prevBtn1">Previous</button>
+                <img class="slideshow-image" id="sliderImage1" src="images/slide0.jpg"
+                    alt="Slideshow image of older work by Myles Braverman" width="400">
+                <button id="nextBtn1">Next</button>
+            </div>
+        </div>
+        <div>
+            <h2 class="section-h2">My current work:</h2>
+            <p class="section-p"> In Fall of 2024, I began a photographic project along Route 201 in Maine. The 201
+                travels from the Canadian border in the North, down to Brunswick in the South, and passes through
+                Waterville on the way. This project has become the focus of what will be my Senior exhibit at the end of
+                this year. I don't want to spoil anything, but here are some rough edits from a roll of film I shot in
+                last Spring. </p>
+            <div class="slideshow-section">
+                <button id="prevBtn2">Previous</button>
+                <img class="slideshow-image" id="sliderImage2" src="images/book2.jpg"
+                    alt="Slideshow image of recent work by Myles Braverman" width="400">
+                <button id="nextBtn2">Next</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src='script.js'></script>
+</body>
+
+
+</html>
